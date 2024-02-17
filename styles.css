@@ -1,0 +1,48 @@
+ul li{
+    list-style: none;
+    color: white;
+    font-size: 17px;
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: start;
+    padding: 12px 8px 12px 50px;
+position: relative;
+}
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(./images/checkbox-unchecked.svg);
+    background-size: cover;
+    background-position: center;
+    top:12px;
+    left: 8px;
+}
+ul li.checked{
+    text-decoration: line-through;
+    color:white;
+}
+
+ul li.checked::before{
+    background-image: url(./images/checkbox1.svg);
+}
+
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: white;
+    line-height: 40px;
+    text-align:center;
+    border-radius: 50%;
+}
+
+ul li span:hover{
+    background: #edeef0;
+}
