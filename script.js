@@ -31,7 +31,7 @@ function api(){
   .then(data=>{
     console.log(data.current.condition.text);
     //const weatherText = data.current.condition.text;
-    const weatherIcon=data.current.condition.icon;
+    const weatherIcon=`https:${data.current.condition.icon}`;
     //document.getElementById("weatherText").innerHTML = weatherText;
     document.getElementById("weatherIcon").setAttribute("src", weatherIcon);
   });
