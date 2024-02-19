@@ -54,7 +54,7 @@ document.addEventListener("keypress",function(event){
 });
 
 function add() {
-    if (takenInput.value == "") {
+    if (takenInput.value.trim() == "") {
       alert("Enter a task to add !");
     } else {
         let li=document.createElement("li");
