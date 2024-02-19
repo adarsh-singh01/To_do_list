@@ -23,7 +23,7 @@ setInterval(() => {
     "Time : " + time + "<br> on " + date;
 }, 1000);
 
-const URL="http://api.weatherapi.com/v1/current.json?key=61450680bdfd45b099562828241702&q=New_Delhi"
+const URL="https://api.weatherapi.com/v1/current.json?key=61450680bdfd45b099562828241702&q=New_Delhi"
 
 function api(){
   fetch(URL)
