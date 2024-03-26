@@ -14,7 +14,13 @@ To run the project locally, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/your-username/to-do-app.git`
 2. Navigate to the project directory: `cd to-do-app`
-3. Open the `index.html` file in your browser.
+3. **Then Write Following Command in Terminal:**
+
+```
+npm init -y
+
+```
+4. Open the `index.html` file in your browser.
 
 ## Usage
 
