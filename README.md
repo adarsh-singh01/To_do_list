@@ -7,6 +7,7 @@ Welcome to the To Do App repository! This project is a simple To Do list applica
 - **Task Management:** Add, Mark as Done, and delete tasks effortlessly.
 - **Responsive Design:** Fully responsive layout ensures seamless usability across desktops, tablets, and mobile phones.
 - **Easy to Use:** Intuitive interface for hassle-free task management.
+- **Lasts Longer:** The todos you make will be saved in browser localStorage so that it does wipes off when you refresh the page or come back later. 
 
 ## Installation
 
